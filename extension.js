@@ -76,7 +76,7 @@ class ThreeJsExtension {
             // Three.js is not initialized, load the library dynamically via a script tag
             this.isThreeJsInitialized = true;
             const threeScriptTag = document.createElement('script');
-            threeScriptTag.src = 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r155/three.min.js';
+            threeScriptTag.src = 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r132/three.min.js';
             document.head.appendChild(threeScriptTag);
         } else if (!this.renderer) {
             // Three.js is initialized, but the renderer is not created yet
